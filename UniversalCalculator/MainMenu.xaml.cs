@@ -54,5 +54,9 @@ namespace Calculator
 		{
 			Windows.ApplicationModel.Core.CoreApplication.Exit();
 		}
+		private void tripCalculatorButton_Click(object sender, RoutedEventArgs e)
+       		{
+            		// Trip Calculator C# Code will be developed later.
+        	}
 	}
 }
