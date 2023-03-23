@@ -9,10 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="Beige">
-        <Button x:Name = "mathCalculatorButton" Content="Math Calculator" Height="160" Margin="526,216,0,0" VerticalAlignment="Top" Width="538" FontSize="36"/>
-        <Button x:Name = "mortgageCalculatorButton" Content="Mortgage Calculator" Height="160" Margin="526,406,0,0" Width="538" FontSize="36" VerticalAlignment="Top"/>
-        <Button x:Name = "currencyCalculatorButton" Content="Currency Calculator" Height="160" Margin="526,592,0,0" Width="538" FontSize="36" VerticalAlignment="Top"/>
-        <Button x:Name = "exitButton" Content="Exit" Height="160" Margin="526,778,0,0" Width="538" FontSize="36" VerticalAlignment="Top"/>
+        <Button x:Name = "mathCalculatorButton" Content="Math Calculator" Height="160" Margin="526,216,0,0" VerticalAlignment="Top" Width="538" FontSize="36" Click="mathCalculatorButton_Click"/>
+        <Button x:Name = "mortgageCalculatorButton" Content="Mortgage Calculator" Height="160" Margin="526,406,0,0" Width="538" FontSize="36" VerticalAlignment="Top" Click="mortgageCalculatorButton_Click"/>
+        <Button x:Name = "currencyCalculatorButton" Content="Currency Calculator" Height="160" Margin="526,592,0,0" Width="538" FontSize="36" VerticalAlignment="Top" Click="currencyCalculatorButton_Click"/>
+        <Button x:Name = "exitButton" Content="Exit" Height="160" Margin="526,778,0,0" Width="538" FontSize="36" VerticalAlignment="Top" Click="exitButton_Click"/>
         <TextBlock HorizontalAlignment="Left" Height="60" Margin="488,70,0,0" Text="Universal Calculator" TextWrapping="Wrap" VerticalAlignment="Top" Width="588" TextAlignment="Center" FontSize="48" FontWeight="Bold" Foreground="Blue"/>
         <Image x:Name="abacusImage" HorizontalAlignment="Left" Height="194" Margin="1182,30,0,0" VerticalAlignment="Top" Width="291" Source="/Assets/abacus.PNG"/>
 

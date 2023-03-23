@@ -131,7 +131,7 @@ namespace Calculator
 		private async void Exit_Button_Click(object sender, RoutedEventArgs e)
 		{
 			// exits program to main menu
-			this.Frame.Navigate(typeof(MainPage));
+			this.Frame.Navigate(typeof(MainMenu));
 		}
 	}
 }
